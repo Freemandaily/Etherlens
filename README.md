@@ -45,7 +45,7 @@ Address = ['0x82D55805Cd58E908772025F3f32AE55B0eD93143','0x26cE34d34724428138F2E
 Output = Decode.monitor(Address)
 print(Output)
 ```
-Example of Output returned by the `monitor()`:
+Example of Output returned by the `monitor( )`:
 ```python
 
 {'Address(0x15deac498767a6e997c007ca91df55cbdd8a6198)': [
@@ -72,7 +72,7 @@ hash = '0x53633f8e720ba4f22387ff1e34dac802c07dd9b7ec5b1963b755ff99edf9c15e'
 output = Decode.monitor_with_hash(hash)
 print(output)
 ```
-Example of Output Returned by monitor_with_hash()
+Example of Output Returned by `monitor_with_hash( )`
 
 ```python
 {'hash(0x53633f8e720ba4f22387ff1e34dac802c07dd9b7ec5b1963b755ff99edf9c15e)': {'ammountIn': 26697410107434513, 'amountOut': 1579868553164855380085, 'tokenIn': '0x4200000000000000000000000000000000000006', 'tokenOut': '0xBd59400A7b2062E6a4F64AbbE99D046Fe226757C'}}
@@ -87,7 +87,7 @@ Address = ['0x08c03a6b5d51a8915bae08a0f182dab6fb2c059b','0x94661f0b3619072c6ce59
 output = Decode.token_balance(tokenContractAddress,Address)
 print(output)
 ```
-Example of output Returned by token_balance()
+Example of output Returned by `token_balance( )`:
 
 ```python
 {'0x08c03a6b5d51a8915bae08a0f182dab6fb2c059b': 1476352034707.0415, '0x94661f0b3619072c6ce591534e95019a4a3f7ad5': 1408145648317.3828}
@@ -100,7 +100,7 @@ Address = ['0x15deac498767a6e997c007ca91df55cbdd8a6198','0x94661f0b3619072c6ce59
 output = Decode.eth_balance(Address)
 print(output)
 ```
-Example of Output Returned by eth_balance()
+Example of Output Returned by `eth_balance( )`:
 
 ```python
 {'0x15deac498767a6e997c007ca91df55cbdd8a6198': 0.001072, '0x94661f0b3619072c6ce591534e95019a4a3f7ad5': 0.039995}
