@@ -37,12 +37,13 @@ You can pass in only one address or list of addresses to the method
   During instantiation of the class **Observe** user should specify which blockchain he/she wants eg 'ETH','BSC','BASE','OP','ARB','POLY'
   
 ```python
-form etherlens import Observe
+from etherlens import Observe
 
 Your_rpc_url = 'https://.......'
+Decode = Observe(your_rpc_url,'ETH')
 Address = ['0x15deac498767a6e997c007ca91df55cbdd8a6198','0xc633843de683ff3e91353412b039b0699fa1615b']
-Decode = Observe(Address,'ETH')
-print(Decode)
+Output = Decode.monitor(Address)
+print(Output)
 ```
 
 
