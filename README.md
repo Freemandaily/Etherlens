@@ -40,11 +40,32 @@ You can pass in only one address or list of addresses to the method
 from etherlens import Observe
 
 Your_rpc_url = 'https://.......'
-Decode = Observe(your_rpc_url,'ETH')
-Address = ['0x15deac498767a6e997c007ca91df55cbdd8a6198','0xc633843de683ff3e91353412b039b0699fa1615b']
+Decode = Observe(Your_rpc_url,'ETH')
+Address = ['0x82D55805Cd58E908772025F3f32AE55B0eD93143','0x26cE34d34724428138F2E5a6a5B5B95ad8e64f6C']
 Output = Decode.monitor(Address)
 print(Output)
 ```
+Example of Output returned by the `monitor()`:
+```python
+
+{'Address(0x15deac498767a6e997c007ca91df55cbdd8a6198)': [
+ {'hash(0x0ba00128c137225647c6e264659f156bde27eafb6133a2e89cfa450ea9eda5d2)':
+                                                        {'amountIn': 321551417590518774759424,
+                                                          'aountOut': 24405654217389512,
+                                                            'tokenIn': '0xfEA9DcDc9E23a9068bF557AD5b186675C61d33eA',
+                                                        'tokenOut': '0x4200000000000000000000000000000000000006'}},
+'Address(0xc633843de683ff3e91353412b039b0699fa1615b)': [
+{'hash(0x53633f8e720ba4f22387ff1e34dac802c07dd9b7ec5b1963b755ff99edf9c15e)':
+                                                        {'ammountIn': 26697410107434513,
+                                                          'amountOut': 1579868553164855380085,
+                                                          'tokenIn': '0x4200000000000000000000000000000000000006',
+                                                          'tokenOut': '0xBd59400A7b2062E6a4F64AbbE99D046Fe226757C'}}, {'hash(0xeafc84e5cb41260e32cdd094092b6e4e9189e3e813a4d56e9893b36ca13911b8)':
+                                                        {'ammountIn': 1681333259230206230528,
+                                                          'amountOut': 3864771106922855,
+                                                            'tokenIn': '0xBd59400A7b2062E6a4F64AbbE99D046Fe226757C',
+                                                              'tokenOut': '0x4200000000000000000000000000000000000006'}}]}
+```
+
 
 
 
