@@ -9,6 +9,8 @@ EtherLens is a Python library designed to provide comprehensive insights into Bl
 ### Caution
 ⚠ This library has not been audited, and there is no pledge for one !
 
-⚠ Might be of advantage be amiliar with general blockchain concepts and [web3.py](https://github.com/ethereum/web3.py) in particular.
+⚠ Might be of advantage to be familiar with general blockchain concepts and [web3.py](https://github.com/ethereum/web3.py) in particular.
 
-⚠ This project is a work in progress so not all swap transction are decoded yet.
+⚠ This project is a work in progress so not all swap transaction are decoded yet.
+
+
