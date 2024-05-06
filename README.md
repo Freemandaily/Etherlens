@@ -29,8 +29,21 @@ pip install Etherlens
 ## Utilization
 This Library exposes a class Observe which has hpublic method that can be use to decode address transction,get token address balance,fetch native gas balance and more
 
-## How to decode/get address trasaction detail assuming it swapped on uniswap/sushi or any dapp with similar V2 router contract functions
 
+## How to decode/get address transaction detail, assuming it swapped on uniswap/sushi or any dapp with similar V2 router contract functions
+You can pass in only one address or list of addresses to the method 
+
+  #### Blockchain usage
+  During instantiation of the class **Observe** user should specify which blockchain he/she wants eg 'ETH','BSC','BASE','OP','ARB','POLY'
+  
+```python
+form etherlens import Observe
+
+Your_rpc_url = 'https://.......'
+Address = ['0x15deac498767a6e997c007ca91df55cbdd8a6198','0xc633843de683ff3e91353412b039b0699fa1615b']
+Decode = Observe(Address,'ETH')
+print(Decode)
+```
 
 
 
