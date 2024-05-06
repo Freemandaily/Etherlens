@@ -26,6 +26,10 @@ pip install Etherlens
 ```
 
 ---
+## Utilization
+This Library exposes a class Observe which has hpublic method that can be use to decode address transction,get token address balance,fetch native gas balance and more
+
+## How to decode/get address trasaction detail assuming it swapped on uniswap/sushi or any dapp with similar V2 router contract functions
 
 
 
