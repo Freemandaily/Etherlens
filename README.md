@@ -17,7 +17,7 @@ EtherLens is a Python library designed to provide comprehensive insights into Bl
 ## Installation
 It is recommended to use [Python virtual environments](https://python.readthedocs.io/en/latest/library/venv.html), here is a [tutorial](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/) inorder for the dependencies not to conflict with any other Dependencies you might have in your system
 
-This library can be always seen and installed from >>>
+This library can be always seen and installed from >>>[Pypi](https://pypi.org/project/Etherlens/0.0.1/)
 
 
 ```bash
