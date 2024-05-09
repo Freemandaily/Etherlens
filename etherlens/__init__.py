@@ -1,1 +1,3 @@
-from etherlens.observer.py import Observe
+from .observer.py import Observe
+
+__all__ = ['Observe']
